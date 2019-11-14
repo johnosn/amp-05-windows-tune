@@ -40,6 +40,10 @@ Additional flags:
  Combo results
  Example: Diag_analyzer.exe -i Cisco_AMP_diah.7z -t "Jan 01 01:01:01"
  Results: Specified diagnostic file will be analyzed from Jan 1st, 01:01:01 AM to current
+
+ -c : convert results from sfc.exe.log into CSIDL format
+ Note: Specify 1 for enabled.
+ Example: Diag_analyzer.exe -c 1
 ```
 Diag_analyzer.exe will check the provided AMP diagnostic file for sfc.exe.log files.  
 It will then create a directory with the diagnostic file name and store the log files outside of the .7z, in the parent directory of the diagnostic.
